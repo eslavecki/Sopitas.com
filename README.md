@@ -1,2 +1,2 @@
 # Sopitas
- EmanuelSlavečki-Sopitas
+ Sopitas-EmanuelSlavečki

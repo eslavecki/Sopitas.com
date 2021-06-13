@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(245, 246, 248);
+}
+
+.prijava-kontenjer{
+    background-color: white;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50px;
+    width: 500px;
+    height: 700px;
+}
+
+.prijava-kontenjer img{
+    border-radius: 50%;
+}
+
+.prijava-kontenjer button{
+    background-color:rgb(245, 246, 248);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    width: 200px;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+}
+
+.prijava-kontenjer button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.prijava-kontenjer form{
+
+    margin-top: 25%;
+}
+
+.prijava-kontenjer input[type="text"], .prijava-kontenjer input[type="password"]{
+    border: 0;
+    background: none;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 5px 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.prijava-kontenjer input[type="text"]:focus, .prijava-kontenjer input[type="password"]:focus{
+    width: 280px;
+}
+
+.prijava-kontenjer input[type="submit"]{
+    border: 0;
+    background: none;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    padding: 10px 40px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.prijava-kontenjer input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
