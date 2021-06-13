@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+hr{
+    border:1px solid rgb(2, 107, 156);
+}
+
+.header-razmak{
+    height: 1px;
+    background-color: rgb(245, 246, 248);;
+}
+header{
+    background-color: white;
+}
+
+article{
+    background-color: rgb(245, 246, 248);
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper{
+    background-color:white;
+    
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    box-shadow: 0px 1px 51px -30px rgba(0,0,0,0.31);
+}
+
+.sekcije{
+    background-color: white;
+    
+    width: 98%;
+    margin: auto;
+
+}
+
+.sekcije-razmak{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 10vh;
+
+}
+
+.sekcije-hr{
+    border: 0.6px solid lightgray;
+    width: 100%;
+   
+}
+
+.sekcije-hr2{
+    border: 0.3px solid lightgray;
+    width: 100%;
+   
+}
+.sekcija-kategorija{
+    background-color: white;
+    
+    
+}
+
+.sekcija-kategorija-poredak{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.kategorija-clanci {
+    background-color: white;
+    flex: 1;
+    border-radius: 25px
+
+}
+
+.kategorija-clanci a{
+    color: Black;
+}
+
+.kategorija-clanci p{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.kategorija-clanci img{
+    border-radius: 5px;
+}
+
+.kategorija-clanci button{
+    background-color:rgb(245, 246, 248);
+    font-family: 'Poppins', sans-serif;
+    
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+}
+
+.kategorija-clanci button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navigacija{
+    margin-top: 1%;
+    
+}
+.ul-navigacija{
+    background-color: white;
+    display: flex;
+    width: 65%;
+    height: 4vh;
+    margin: auto;
+    
+}
+
+li{
+    list-style-type: none;
+    margin-right: 5%;
+    
+}
+
+.nav-link{
+    margin-right: 5%;
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+}
+
+.nav-link-prijava{
+    margin-left: auto;
+    justify-content: flex-end;
+    background-color: yellow;
+    color: black;
+    border-radius: 25px;
+}
+
+.nav-dizajn{
+    border-radius: 25px;
+    background-color: yellow;
+}
+
+.nav-dizajn a{
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.nav-dizajn a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-boja{
+    background-color: rgb(255,241,1);
+}
+
+.podnozje-razmak{
+    height: 1px;
+    background-color: rgb(245, 246, 248);
+
+}
+
+footer{
+    background-color: rgb(255,241,1);
+    height: 105px;
+    padding: 20px 0;
+}
+
+.clanak-link{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.clanak-link:hover{
+    color: rgb(2, 107, 156);
+}
